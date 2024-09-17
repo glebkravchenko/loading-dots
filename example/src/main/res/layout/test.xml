@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical"
-              android:padding="30dp">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="START"
-            android:textSize="8dp"/>
+            android:textSize="8dp" />
 
         <Button
             android:id="@+id/stop"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="STOP"
-            android:textSize="8dp"/>
+            android:textSize="8dp" />
 
         <Button
             android:id="@+id/add_programmatically"
@@ -33,13 +33,12 @@
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="ADD LOADER PROGRAMMATICALLY"
-            android:textSize="8dp"/>
+            android:textSize="8dp" />
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/root"
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -49,49 +48,47 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:gravity="bottom"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
-                android:text="Out of the box:"/>
+                android:text="Out of the box:" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:gravity="bottom"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
-                android:text="dots_count:"/>
+                android:text="dots_count:" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_dots_count="2"/>
+                app:LoadingDots_dots_count="2" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:text="|"/>
+                android:text="|" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_dots_count="5"/>
+                app:LoadingDots_dots_count="5" />
 
         </LinearLayout>
 
@@ -99,31 +96,30 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:gravity="bottom"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
-                android:text="dots_color:"/>
+                android:text="dots_color:" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_dots_color="@android:color/holo_blue_light"/>
+                app:LoadingDots_dots_color="@android:color/holo_blue_light" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:text="|"/>
+                android:text="|" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_dots_color="@android:color/holo_red_light"/>
+                app:LoadingDots_dots_color="@android:color/holo_red_light" />
 
         </LinearLayout>
 
@@ -131,31 +127,30 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:gravity="bottom"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
-                android:text="dots_size:"/>
+                android:text="dots_size:" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_dots_size="3dp"/>
+                app:LoadingDots_dots_size="3dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:text="|"/>
+                android:text="|" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_dots_size="20dp"/>
+                app:LoadingDots_dots_size="20dp" />
 
         </LinearLayout>
 
@@ -163,31 +158,30 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:gravity="bottom"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
-                android:text="dots_space:"/>
+                android:text="dots_space:" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_dots_space="0dp"/>
+                app:LoadingDots_dots_space="0dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:text="|"/>
+                android:text="|" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_dots_space="10dp"/>
+                app:LoadingDots_dots_space="10dp" />
 
         </LinearLayout>
 
@@ -195,31 +189,30 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:gravity="bottom"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
-                android:text="jump_height:"/>
+                android:text="jump_height:" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_jump_height="4dp"/>
+                app:LoadingDots_jump_height="4dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:text="|"/>
+                android:text="|" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_jump_height="25dp"/>
+                app:LoadingDots_jump_height="25dp" />
 
         </LinearLayout>
 
@@ -227,31 +220,30 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:gravity="bottom"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
-                android:text="jump_duration:"/>
+                android:text="jump_duration:" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_jump_duration="200"/>
+                app:LoadingDots_jump_duration="200" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:text="|"/>
+                android:text="|" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_jump_duration="450"/>
+                app:LoadingDots_jump_duration="450" />
 
         </LinearLayout>
 
@@ -259,35 +251,34 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:gravity="bottom"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
-                android:text="loop_duration:"/>
+                android:text="loop_duration:" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:LoadingDots_jump_duration="200"
                 app:LoadingDots_loop_duration="300"
-                app:LoadingDots_loop_start_delay="50"/>
+                app:LoadingDots_loop_start_delay="50" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:text="|"/>
+                android:text="|" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:LoadingDots_jump_duration="800"
                 app:LoadingDots_loop_duration="1200"
-                app:LoadingDots_loop_start_delay="200"/>
+                app:LoadingDots_loop_start_delay="200" />
 
         </LinearLayout>
 
@@ -295,32 +286,31 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:gravity="bottom"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
-                android:text="loop_start_delay:"/>
+                android:text="loop_start_delay:" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:LoadingDots_loop_start_delay="0"/>
+                app:LoadingDots_loop_start_delay="0" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:text="|"/>
+                android:text="|" />
 
             <com.eyalbira.loadingdots.LoadingDots
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:LoadingDots_loop_duration="1200"
-                app:LoadingDots_loop_start_delay="600"/>
+                app:LoadingDots_loop_start_delay="600" />
 
         </LinearLayout>
 

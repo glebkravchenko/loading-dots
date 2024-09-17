@@ -75,7 +75,7 @@ public class TestActivity extends Activity {
 
         LoadingDots loadingDots = new LoadingDots(this);
         loadingDots.setDotsCount(3);
-        loadingDots.setDotsSizeRes(R.dimen.LoadingDots_dots_size_default);
+        loadingDots.setDotsSizeRes(com.eyalbira.loadingdots.R.dimen.LoadingDots_dots_size_default);
         loadingDots.setDotsColor(Color.BLUE);
 
         root.addView(loadingDots, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
